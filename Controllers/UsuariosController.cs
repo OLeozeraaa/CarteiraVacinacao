@@ -77,7 +77,6 @@ namespace CarteiraVacinacao.Controllers
                 user.PasswordSalt = salt;
                 await _context.Login.AddAsync(user);
                 await _context.SaveChangesAsync();
-
                 return Ok(user.Id);
             }
             catch(System.Exception ex)

@@ -1,9 +1,10 @@
 
+using System.Collections.Generic;
+
 namespace carteiravacina.Models
 {
     public class Vacina
     {
-        public Vacina(){}
         public Vacina(int idVacina, string descriacaoVacina, int idEspecie, int doseVacina, int intervaloVacina)
         {
             this.IdVacina = idVacina;

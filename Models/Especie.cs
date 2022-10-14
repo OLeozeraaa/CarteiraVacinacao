@@ -3,7 +3,6 @@ namespace carteiravacina.Models
 {
     public class Especie
     {
-        public Especie(){}
         public Especie(int idEspecie, string especieAnimal, string grupoAnimal)
         {
             this.IdEspecie = idEspecie;

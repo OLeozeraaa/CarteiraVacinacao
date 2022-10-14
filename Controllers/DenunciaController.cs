@@ -1,5 +1,4 @@
 using System;
-using CarteiraVacinacao.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace carteiravacina.Controllers
@@ -8,10 +7,6 @@ namespace carteiravacina.Controllers
     [Route("api/[controller]")]
     public class DenunciaController : ControllerBase
     {
-        /*public DenunciaController(IRepository repo)
-        {
-            
-        }*/
         [HttpGet]
         public IActionResult Get()
         {

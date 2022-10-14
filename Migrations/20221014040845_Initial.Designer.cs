@@ -4,14 +4,16 @@ using CarteiraVacina_BackEnd.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace carteiravacina.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20221014040845_Initial")]
+    partial class Initial
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -79,24 +81,29 @@ namespace carteiravacina.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("AnimalId")
+                    b.Property<int?>("AnimalIdAnimal")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("CarteiraVacinaIdCarteira")
                         .HasColumnType("int");
 
                     b.Property<string>("Medicamento")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ProxVacina")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime>("ProxVacina")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("TipoVacina")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("dataVacina")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime>("dataVacina")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("IdCarteira");
 
-                    b.HasIndex("AnimalId");
+                    b.HasIndex("AnimalIdAnimal");
+
+                    b.HasIndex("CarteiraVacinaIdCarteira");
 
                     b.ToTable("CarteiraVacina");
                 });
@@ -1466,9 +1473,11 @@ namespace carteiravacina.Migrations
                 {
                     b.HasOne("carteiravacina.Models.Animal", "Animal")
                         .WithMany()
-                        .HasForeignKey("AnimalId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("AnimalIdAnimal");
+
+                    b.HasOne("carteiravacina.Models.CarteiraVacina", null)
+                        .WithMany("CarteiraVacinas")
+                        .HasForeignKey("CarteiraVacinaIdCarteira");
 
                     b.Navigation("Animal");
                 });
@@ -1480,6 +1489,11 @@ namespace carteiravacina.Migrations
                         .HasForeignKey("PerfilIdCodigo");
 
                     b.Navigation("Perfil");
+                });
+
+            modelBuilder.Entity("carteiravacina.Models.CarteiraVacina", b =>
+                {
+                    b.Navigation("CarteiraVacinas");
                 });
 #pragma warning restore 612, 618
         }

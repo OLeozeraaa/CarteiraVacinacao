@@ -1,3 +1,9 @@
+using System;
+using System.Security.Claims;
+using System.Threading.Tasks;
+using carteiravacina.Models;
+using CarteiraVacina_BackEnd.Data;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace carteiravacina.Controllers
@@ -6,10 +12,12 @@ namespace carteiravacina.Controllers
     [Route("api/[controller]")]
     public class RGAController : ControllerBase
     {
-         [HttpGet]
-        public IActionResult Get()
+        private readonly DataContext _context;
+
+        public RGAController(DataContext context)
         {
-            return Ok("cinco");
+            _context = context;
         }
+
     }
 }

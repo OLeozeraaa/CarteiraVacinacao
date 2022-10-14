@@ -3,7 +3,6 @@ namespace carteiravacina.Models
 {
     public class Racas
     {
-        public Racas(){}
         public Racas(int idRaca, int idEspecie, string descricaoRaca, string porteRaca, string crRaca)
         {
             this.IdRaca = idRaca;

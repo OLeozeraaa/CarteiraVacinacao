@@ -4,7 +4,6 @@ namespace carteiravacina.Models
 {
     public class TutorAnimal
     {
-        public TutorAnimal(){}
         public TutorAnimal(int idTutor, int idAnimal, DateTime dataInicio)
         {
             this.IdTutor = idTutor;

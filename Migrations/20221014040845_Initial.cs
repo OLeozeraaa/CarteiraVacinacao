@@ -25,14 +25,16 @@ namespace carteiravacina.Migrations
                 name: "Login",
                 columns: table => new
                 {
-                    PasswordHash = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     username = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     PasswordString = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    PasswordSalt = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    PasswordHash = table.Column<byte[]>(type: "varbinary(max)", nullable: true),
+                    PasswordSalt = table.Column<byte[]>(type: "varbinary(max)", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Login", x => x.PasswordHash);
+                    table.PrimaryKey("PK_Login", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -203,7 +205,8 @@ namespace carteiravacina.Migrations
                     Medicamento = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     TipoVacina = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     AnimalIdAnimal = table.Column<int>(type: "int", nullable: true),
-                    ProxVacina = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    ProxVacina = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    CarteiraVacinaIdCarteira = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -213,6 +216,12 @@ namespace carteiravacina.Migrations
                         column: x => x.AnimalIdAnimal,
                         principalTable: "Animal",
                         principalColumn: "IdAnimal",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_CarteiraVacina_CarteiraVacina_CarteiraVacinaIdCarteira",
+                        column: x => x.CarteiraVacinaIdCarteira,
+                        principalTable: "CarteiraVacina",
+                        principalColumn: "IdCarteira",
                         onDelete: ReferentialAction.Restrict);
                 });
 
@@ -440,6 +449,11 @@ namespace carteiravacina.Migrations
                 name: "IX_CarteiraVacina_AnimalIdAnimal",
                 table: "CarteiraVacina",
                 column: "AnimalIdAnimal");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_CarteiraVacina_CarteiraVacinaIdCarteira",
+                table: "CarteiraVacina",
+                column: "CarteiraVacinaIdCarteira");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Tutor_PerfilIdCodigo",

@@ -3,7 +3,6 @@ namespace carteiravacina.Models
 {
     public class Tutor
     {
-        public Tutor(){}
         public Tutor(int idTutor, int cpfTutor, string nomeTutor, string enderecoTutor, int numeroTutor, string complementoTutor, string bairroTutor, string municipioTutor, string ufTutor, string email, int crm)
         {
             this.IdTutor = idTutor;

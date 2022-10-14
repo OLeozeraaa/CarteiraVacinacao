@@ -3,7 +3,6 @@ namespace carteiravacina.Models
 {
     public class Sexos
     {
-        public Sexos(){}
         public Sexos(int idSexo, string descricaoSexo)
         {
             this.IdSexo = idSexo;

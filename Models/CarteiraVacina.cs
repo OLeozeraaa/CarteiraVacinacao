@@ -1,11 +1,12 @@
 using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace carteiravacina.Models
 
 {
     public class CarteiraVacina
     {
-        public CarteiraVacina(){}
         public CarteiraVacina(int idCarteira, DateTime dataVacina, string medicamento, string tipoVacina, DateTime proxVacina)
         {
             this.IdCarteira = idCarteira;
@@ -13,7 +14,6 @@ namespace carteiravacina.Models
             this.Medicamento = medicamento;
             this.TipoVacina = tipoVacina;
             this.ProxVacina = proxVacina;
-
         }
         public int IdCarteira { get; set; }
         public DateTime dataVacina { get; set; }
@@ -21,5 +21,6 @@ namespace carteiravacina.Models
         public string TipoVacina { get; set; }
         public Animal Animal { get; set; }
         public DateTime ProxVacina { get; set; }
+        //public int AnimalId { get; set; }
     }
 }

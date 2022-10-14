@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace carteiravacina.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20221009023301_Initial")]
-    partial class Initial
+    [Migration("20221014224209_Secondary")]
+    partial class Secondary
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -81,24 +81,24 @@ namespace carteiravacina.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("AnimalIdAnimal")
+                    b.Property<int>("AnimalId")
                         .HasColumnType("int");
 
                     b.Property<string>("Medicamento")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("ProxVacina")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("ProxVacina")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("TipoVacina")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("dataVacina")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("dataVacina")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("IdCarteira");
 
-                    b.HasIndex("AnimalIdAnimal");
+                    b.HasIndex("AnimalId");
 
                     b.ToTable("CarteiraVacina");
                 });
@@ -137,11 +137,16 @@ namespace carteiravacina.Migrations
 
             modelBuilder.Entity("carteiravacina.Models.Login", b =>
                 {
-                    b.Property<string>("PasswordHash")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("PasswordSalt")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<byte[]>("PasswordHash")
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<byte[]>("PasswordSalt")
+                        .HasColumnType("varbinary(max)");
 
                     b.Property<string>("PasswordString")
                         .HasColumnType("nvarchar(max)");
@@ -149,7 +154,7 @@ namespace carteiravacina.Migrations
                     b.Property<string>("username")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("PasswordHash");
+                    b.HasKey("Id");
 
                     b.ToTable("Login");
                 });
@@ -1463,7 +1468,9 @@ namespace carteiravacina.Migrations
                 {
                     b.HasOne("carteiravacina.Models.Animal", "Animal")
                         .WithMany()
-                        .HasForeignKey("AnimalIdAnimal");
+                        .HasForeignKey("AnimalId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Animal");
                 });

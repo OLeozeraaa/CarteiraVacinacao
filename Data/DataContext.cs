@@ -18,6 +18,7 @@ namespace CarteiraVacina_BackEnd.Data
         public DbSet<Tutor> Tutor { get; set; }
         public DbSet<TutorAnimal> TutorAnimal { get; set; }
         public DbSet<Vacina> Vacina { get; set; }
+        
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -74,7 +75,7 @@ namespace CarteiraVacina_BackEnd.Data
                     new Racas ( 28,1,"Lulu da pomerânia","Médio","Animado, inteligente e cheio de personalidade"),
                     new Racas ( 29,1,"Maltês","Médio","Gentil, brincalhão e afetuoso"),
                     new Racas ( 30,1,"Mastiff inglês","Alto","Calmo, amável e leal"),
-                    new Racas( 31,1,"Mastim tibetano","Alto","Independente, reservado e inteligente"),
+                    new Racas (31,1,"Mastim tibetano","Alto","Independente, reservado e inteligente"),
                     new Racas ( 32,1,"Pastor alemão","Alto","Confiante, corajoso e inteligente"),
                     new Racas ( 33,1,"Pastor australiano","Alto","Esperto, trabalhador e exuberante"),
                     new Racas ( 34,1,"Pastor de Shetland","Médio","Brincalhão, energético e esperto"),
