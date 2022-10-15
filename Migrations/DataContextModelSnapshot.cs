@@ -79,24 +79,24 @@ namespace carteiravacina.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("AnimalId")
+                    b.Property<int?>("AnimalIdAnimal")
                         .HasColumnType("int");
 
                     b.Property<string>("Medicamento")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ProxVacina")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime>("ProxVacina")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("TipoVacina")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("dataVacina")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime>("dataVacina")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("IdCarteira");
 
-                    b.HasIndex("AnimalId");
+                    b.HasIndex("AnimalIdAnimal");
 
                     b.ToTable("CarteiraVacina");
                 });
@@ -1466,9 +1466,7 @@ namespace carteiravacina.Migrations
                 {
                     b.HasOne("carteiravacina.Models.Animal", "Animal")
                         .WithMany()
-                        .HasForeignKey("AnimalId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("AnimalIdAnimal");
 
                     b.Navigation("Animal");
                 });

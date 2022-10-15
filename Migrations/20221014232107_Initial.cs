@@ -158,13 +158,13 @@ namespace carteiravacina.Migrations
                     EspecieIdEspecie = table.Column<int>(type: "int", nullable: true),
                     RacasIdRaca = table.Column<int>(type: "int", nullable: true),
                     RacasIdEspecie = table.Column<int>(type: "int", nullable: true),
-                    SexosIdSexo = table.Column<int>(type: "int", nullable: true),
                     dtNascimento = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Pelagem = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     SituacaoIdSituacao = table.Column<int>(type: "int", nullable: true),
                     SituacaoDescricaoSituacao = table.Column<string>(type: "nvarchar(450)", nullable: true),
                     IdRGA = table.Column<int>(type: "int", nullable: false),
-                    peso = table.Column<float>(type: "real", nullable: false)
+                    peso = table.Column<float>(type: "real", nullable: false),
+                    SexosIdSexo = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -205,8 +205,7 @@ namespace carteiravacina.Migrations
                     Medicamento = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     TipoVacina = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     AnimalIdAnimal = table.Column<int>(type: "int", nullable: true),
-                    ProxVacina = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    CarteiraVacinaIdCarteira = table.Column<int>(type: "int", nullable: true)
+                    ProxVacina = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -216,12 +215,6 @@ namespace carteiravacina.Migrations
                         column: x => x.AnimalIdAnimal,
                         principalTable: "Animal",
                         principalColumn: "IdAnimal",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_CarteiraVacina_CarteiraVacina_CarteiraVacinaIdCarteira",
-                        column: x => x.CarteiraVacinaIdCarteira,
-                        principalTable: "CarteiraVacina",
-                        principalColumn: "IdCarteira",
                         onDelete: ReferentialAction.Restrict);
                 });
 
@@ -449,11 +442,6 @@ namespace carteiravacina.Migrations
                 name: "IX_CarteiraVacina_AnimalIdAnimal",
                 table: "CarteiraVacina",
                 column: "AnimalIdAnimal");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_CarteiraVacina_CarteiraVacinaIdCarteira",
-                table: "CarteiraVacina",
-                column: "CarteiraVacinaIdCarteira");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Tutor_PerfilIdCodigo",
