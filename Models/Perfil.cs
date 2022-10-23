@@ -13,8 +13,5 @@ namespace carteiravacina.Models
         }
         public int IdCodigo { get; set; }
         public string descricao { get; set; }
-
-        [NotMapped]
-        public List<Login> Logins { get; set; }
     }
 }

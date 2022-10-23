@@ -22,7 +22,7 @@ namespace carteiravacina.Controllers
             _context = context;
         }
 
-          [HttpGet("{id}")]
+        [HttpGet("{id}")]
         public async Task<IActionResult> GetSingle(int id)
         {
             try
@@ -79,7 +79,7 @@ namespace carteiravacina.Controllers
             } 
         }
 
-        [HttpPost("Add")]
+        /*[HttpPost("Add")]
         public async Task<IActionResult> AdicionarCarteira(CarteiraVacina carteiraVacina)
         {
             try
@@ -89,6 +89,34 @@ namespace carteiravacina.Controllers
                 return Ok();
             }
             catch(System.Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }*/
+
+        [HttpPost]
+        public async Task<IActionResult> Add(CarteiraVacina carteiravacina)
+        {
+            try
+            {
+                CarteiraVacina carteiraVacina = await _context.CarteiraVacina
+                    .FirstOrDefaultAsync(p => p.IdCarteira == carteiravacina.IdCarteira);
+
+                if (carteiraVacina == null)
+                    throw new System.Exception("Informação invalida!.");
+
+                Vacina vacinA = await _context.Vacina
+                    .FirstOrDefaultAsync(a => a.IdVacina ==  carteiravacina.IdCarteira);
+
+                if (vacinA != null)
+                    throw new System.Exception("Vacina selecionada já contida na carteira");
+                
+                await _context.CarteiraVacina.AddAsync(carteiraVacina);
+                await _context.SaveChangesAsync();
+
+                return Ok(carteiraVacina.IdCarteira);
+            }
+            catch (System.Exception ex)
             {
                 return BadRequest(ex.Message);
             }

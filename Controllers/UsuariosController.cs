@@ -61,30 +61,6 @@ namespace CarteiraVacinacao.Controllers
             }
         }
 
-        // Método para registrar um usuário, caso o username não exista no banco de dados
-        /*[AllowAnonymous]
-        [HttpPost("Registrar")]
-        public async Task<IActionResult>RegistrarUsuario(Login user)
-        {
-            try
-            {
-                if(await UsuarioExistente(user.username))
-                    throw new System.Exception("Nome de usuário já existente");
-                
-                Criptografia.CriarPasswordHash(user.PasswordString, out byte[] hash, out byte[] salt);
-                user.PasswordString = string.Empty;
-                user.PasswordHash = hash;
-                user.PasswordSalt = salt;
-                await _context.Login.AddAsync(user);
-                await _context.SaveChangesAsync();
-                return Ok(user.Id);
-            }
-            catch(System.Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }*/
-
         // Método para autenticar usuário por senha
         [AllowAnonymous]
         [HttpPost("Autenticar")]
