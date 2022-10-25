@@ -28,7 +28,7 @@ namespace carteiravacina.Controllers
                     .Include(cv => cv.IdCarteira)
                     .Include(tp => tp.TipoVacina)
                     .Include(dt => dt.dataVacina)
-                    .Include(pv => pv.ProxVacina)
+                    .Include(pv => pv.ProximaVacina)
                     .FirstOrDefaultAsync(pBusca => pBusca.IdCarteira == id);
 
                 return Ok(cv);

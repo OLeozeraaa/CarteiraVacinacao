@@ -79,7 +79,7 @@ namespace carteiravacina.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("AnimalIdAnimal")
+                    b.Property<int?>("IdAnimal")
                         .HasColumnType("int");
 
                     b.Property<string>("Medicamento")
@@ -96,7 +96,7 @@ namespace carteiravacina.Migrations
 
                     b.HasKey("IdCarteira");
 
-                    b.HasIndex("AnimalIdAnimal");
+                    b.HasIndex("IdAnimal");
 
                     b.ToTable("CarteiraVacina");
                 });
@@ -1466,7 +1466,7 @@ namespace carteiravacina.Migrations
                 {
                     b.HasOne("carteiravacina.Models.Animal", "Animal")
                         .WithMany()
-                        .HasForeignKey("AnimalIdAnimal");
+                        .HasForeignKey("IdAnimal");
 
                     b.Navigation("Animal");
                 });

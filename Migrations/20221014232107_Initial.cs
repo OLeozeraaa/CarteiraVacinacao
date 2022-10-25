@@ -204,15 +204,15 @@ namespace carteiravacina.Migrations
                     dataVacina = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Medicamento = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     TipoVacina = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    AnimalIdAnimal = table.Column<int>(type: "int", nullable: true),
+                    IdAnimal = table.Column<int>(type: "int", nullable: true),
                     ProxVacina = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_CarteiraVacina", x => x.IdCarteira);
                     table.ForeignKey(
-                        name: "FK_CarteiraVacina_Animal_AnimalIdAnimal",
-                        column: x => x.AnimalIdAnimal,
+                        name: "FK_CarteiraVacina_Animal_IdAnimal",
+                        column: x => x.IdAnimal,
                         principalTable: "Animal",
                         principalColumn: "IdAnimal",
                         onDelete: ReferentialAction.Restrict);
@@ -439,9 +439,9 @@ namespace carteiravacina.Migrations
                 columns: new[] { "SituacaoIdSituacao", "SituacaoDescricaoSituacao" });
 
             migrationBuilder.CreateIndex(
-                name: "IX_CarteiraVacina_AnimalIdAnimal",
+                name: "IX_CarteiraVacina_IdAnimal",
                 table: "CarteiraVacina",
-                column: "AnimalIdAnimal");
+                column: "IdAnimal");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Tutor_PerfilIdCodigo",

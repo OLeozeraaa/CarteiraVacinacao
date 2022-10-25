@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Etec\\TCC\\CarteiraVacinacao\\carteiravacina.csproj": {}
+    "C:\\Users\\artca\\OneDrive\\Documentos\\Análise e Desenvolvimento de Sistemas - Etec\\3 SEMESTRE\\Desenvolvimento de TCC\\CarteiraVacinacao\\carteiravacina.csproj": {}
   },
   "projects": {
-    "D:\\Etec\\TCC\\CarteiraVacinacao\\carteiravacina.csproj": {
+    "C:\\Users\\artca\\OneDrive\\Documentos\\Análise e Desenvolvimento de Sistemas - Etec\\3 SEMESTRE\\Desenvolvimento de TCC\\CarteiraVacinacao\\carteiravacina.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Etec\\TCC\\CarteiraVacinacao\\carteiravacina.csproj",
+        "projectUniqueName": "C:\\Users\\artca\\OneDrive\\Documentos\\Análise e Desenvolvimento de Sistemas - Etec\\3 SEMESTRE\\Desenvolvimento de TCC\\CarteiraVacinacao\\carteiravacina.csproj",
         "projectName": "carteiravacina",
-        "projectPath": "D:\\Etec\\TCC\\CarteiraVacinacao\\carteiravacina.csproj",
-        "packagesPath": "C:\\Users\\Hiago\\.nuget\\packages\\",
-        "outputPath": "D:\\Etec\\TCC\\CarteiraVacinacao\\obj\\",
+        "projectPath": "C:\\Users\\artca\\OneDrive\\Documentos\\Análise e Desenvolvimento de Sistemas - Etec\\3 SEMESTRE\\Desenvolvimento de TCC\\CarteiraVacinacao\\carteiravacina.csproj",
+        "packagesPath": "C:\\Users\\artca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\artca\\OneDrive\\Documentos\\Análise e Desenvolvimento de Sistemas - Etec\\3 SEMESTRE\\Desenvolvimento de TCC\\CarteiraVacinacao\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Hiago\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\artca\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -76,15 +69,14 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.17, 5.0.17]"
+              "version": "[5.0.13, 5.0.13]"
             }
           ],
           "frameworkReferences": {
@@ -95,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

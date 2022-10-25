@@ -121,10 +121,10 @@ CREATE TABLE [CarteiraVacina] (
     [dataVacina] datetime2 NOT NULL,
     [Medicamento] nvarchar(max) NULL,
     [TipoVacina] nvarchar(max) NULL,
-    [AnimalIdAnimal] int NULL,
+    [IdAnimal] int NULL,
     [ProxVacina] datetime2 NOT NULL,
     CONSTRAINT [PK_CarteiraVacina] PRIMARY KEY ([IdCarteira]),
-    CONSTRAINT [FK_CarteiraVacina_Animal_AnimalIdAnimal] FOREIGN KEY ([AnimalIdAnimal]) REFERENCES [Animal] ([IdAnimal]) ON DELETE NO ACTION
+    CONSTRAINT [FK_CarteiraVacina_Animal_IdAnimal] FOREIGN KEY ([IdAnimal]) REFERENCES [Animal] ([IdAnimal]) ON DELETE NO ACTION
 );
 GO
 
@@ -340,7 +340,7 @@ GO
 CREATE INDEX [IX_Animal_SituacaoIdSituacao_SituacaoDescricaoSituacao] ON [Animal] ([SituacaoIdSituacao], [SituacaoDescricaoSituacao]);
 GO
 
-CREATE INDEX [IX_CarteiraVacina_AnimalIdAnimal] ON [CarteiraVacina] ([AnimalIdAnimal]);
+CREATE INDEX [IX_CarteiraVacina_IdAnimal] ON [CarteiraVacina] ([IdAnimal]);
 GO
 
 CREATE INDEX [IX_Tutor_PerfilIdCodigo] ON [Tutor] ([PerfilIdCodigo]);
