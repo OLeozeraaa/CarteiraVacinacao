@@ -22,7 +22,7 @@ namespace carteiravacina
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<DataContext>(x => x.UseSqlServer(Configuration.GetConnectionString("ConexaoSomee")));
-            
+            services.AddCors();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -45,6 +45,12 @@ namespace carteiravacina
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseCors(x => x
+                    .AllowAnyHeader()
+                    .AllowAnyMethod()
+                    .SetIsOriginAllowed(origin => true)
+                    .AllowCredentials());
 
             app.UseEndpoints(endpoints =>
             {

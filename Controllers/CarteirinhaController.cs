@@ -94,7 +94,7 @@ namespace carteiravacina.Controllers
             }
         }*/
 
-        [HttpPost]
+        [HttpPost("Add")]
         public async Task<IActionResult> Add(CarteiraVacina carteiravacina)
         {
             try
