@@ -1,0 +1,388 @@
+C:\Users\Hiago\OneDrive\Desktop\carteiravacina\obj\Debug\net5.0\carteiravacina.csproj.AssemblyReference.cache
+C:\Users\Hiago\OneDrive\Desktop\carteiravacina\obj\Debug\net5.0\carteiravacina.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hiago\OneDrive\Desktop\carteiravacina\obj\Debug\net5.0\carteiravacina.AssemblyInfoInputs.cache
+C:\Users\Hiago\OneDrive\Desktop\carteiravacina\obj\Debug\net5.0\carteiravacina.AssemblyInfo.cs
+C:\Users\Hiago\OneDrive\Desktop\carteiravacina\obj\Debug\net5.0\carteiravacina.csproj.CoreCompileInputs.cache
+C:\Users\Hiago\OneDrive\Desktop\carteiravacina\obj\Debug\net5.0\carteiravacina.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Hiago\OneDrive\Desktop\carteiravacina\obj\Debug\net5.0\carteiravacina.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Hiago\OneDrive\Desktop\carteiravacina\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Hiago\OneDrive\Desktop\carteiravacina\bin\Debug\net5.0\appsettings.json
+C:\Users\Hiago\OneDrive\Desktop\carteiravacina\bin\Debug\net5.0\carteiravacina.exe
+C:\Users\Hiago\OneDrive\Desktop\carteiravacina\bin\Debug\net5.0\carteiravacina.deps.json
+C:\Users\Hiago\OneDrive\Desktop\carteiravacina\bin\Debug\net5.0\carteiravacina.runtimeconfig.json
+C:\Users\Hiago\OneDrive\Desktop\carteiravacina\bin\Debug\net5.0\carteiravacina.runtimeconfig.dev.json
+C:\Users\Hiago\OneDrive\Desktop\carteiravacina\bin\Debug\net5.0\carteiravacina.dll
+C:\Users\Hiago\OneDrive\Desktop\carteiravacina\bin\Debug\net5.0\carteiravacina.pdb
+C:\Users\Hiago\OneDrive\Desktop\carteiravacina\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Hiago\OneDrive\Desktop\carteiravacina\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Hiago\OneDrive\Desktop\carteiravacina\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Hiago\OneDrive\Desktop\carteiravacina\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Hiago\OneDrive\Desktop\carteiravacina\obj\Debug\net5.0\scopedcss\bundle\carteiravacina.styles.css
+C:\Users\Hiago\OneDrive\Desktop\carteiravacina\obj\Debug\net5.0\staticwebassets\carteiravacina.StaticWebAssets.Manifest.cache
+C:\Users\Hiago\OneDrive\Desktop\carteiravacina\obj\Debug\net5.0\carteiravacina.RazorTargetAssemblyInfo.cache
+C:\Users\Hiago\OneDrive\Desktop\carteiravacina\obj\Debug\net5.0\carteiravacina.csproj.CopyComplete
+C:\Users\Hiago\OneDrive\Desktop\carteiravacina\obj\Debug\net5.0\carteiravacina.dll
+C:\Users\Hiago\OneDrive\Desktop\carteiravacina\obj\Debug\net5.0\refint\carteiravacina.dll
+C:\Users\Hiago\OneDrive\Desktop\carteiravacina\obj\Debug\net5.0\carteiravacina.pdb
+C:\Users\Hiago\OneDrive\Desktop\carteiravacina\obj\Debug\net5.0\carteiravacina.genruntimeconfig.cache
+C:\Users\Hiago\OneDrive\Desktop\carteiravacina\obj\Debug\net5.0\ref\carteiravacina.dll
+D:\Etec\TCC\CarteiraVacina-BackEnd\obj\Debug\net5.0\carteiravacina.csproj.AssemblyReference.cache
+D:\Etec\TCC\CarteiraVacina-BackEnd\obj\Debug\net5.0\carteiravacina.GeneratedMSBuildEditorConfig.editorconfig
+D:\Etec\TCC\CarteiraVacina-BackEnd\obj\Debug\net5.0\carteiravacina.AssemblyInfoInputs.cache
+D:\Etec\TCC\CarteiraVacina-BackEnd\obj\Debug\net5.0\carteiravacina.AssemblyInfo.cs
+D:\Etec\TCC\CarteiraVacina-BackEnd\obj\Debug\net5.0\carteiravacina.csproj.CoreCompileInputs.cache
+D:\Etec\TCC\CarteiraVacina-BackEnd\obj\Debug\net5.0\carteiravacina.MvcApplicationPartsAssemblyInfo.cs
+D:\Etec\TCC\CarteiraVacina-BackEnd\obj\Debug\net5.0\carteiravacina.MvcApplicationPartsAssemblyInfo.cache
+D:\Etec\TCC\CarteiraVacina-BackEnd\obj\Debug\net5.0\carteiravacina.dll
+D:\Etec\TCC\CarteiraVacina-BackEnd\obj\Debug\net5.0\refint\carteiravacina.dll
+D:\Etec\TCC\CarteiraVacina-BackEnd\obj\Debug\net5.0\carteiravacina.pdb
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\appsettings.Development.json
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\appsettings.json
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\carteiravacina.exe
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\carteiravacina.deps.json
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\carteiravacina.runtimeconfig.json
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\carteiravacina.runtimeconfig.dev.json
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\carteiravacina.dll
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\carteiravacina.pdb
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\Microsoft.Bcl.HashCode.dll
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\SQLitePCLRaw.core.dll
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\Etec\TCC\CarteiraVacina-BackEnd\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\Etec\TCC\CarteiraVacina-BackEnd\obj\Debug\net5.0\scopedcss\bundle\carteiravacina.styles.css
+D:\Etec\TCC\CarteiraVacina-BackEnd\obj\Debug\net5.0\staticwebassets\carteiravacina.StaticWebAssets.Manifest.cache
+D:\Etec\TCC\CarteiraVacina-BackEnd\obj\Debug\net5.0\carteiravacina.RazorTargetAssemblyInfo.cache
+D:\Etec\TCC\CarteiraVacina-BackEnd\obj\Debug\net5.0\carteiravacina.csproj.CopyComplete
+D:\Etec\TCC\CarteiraVacina-BackEnd\obj\Debug\net5.0\carteiravacina.genruntimeconfig.cache
+D:\Etec\TCC\CarteiraVacina-BackEnd\obj\Debug\net5.0\ref\carteiravacina.dll
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\appsettings.Development.json
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\appsettings.json
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\carteiravacina.exe
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\carteiravacina.deps.json
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\carteiravacina.runtimeconfig.json
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\carteiravacina.runtimeconfig.dev.json
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\carteiravacina.dll
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\carteiravacina.pdb
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\Microsoft.Bcl.HashCode.dll
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\SQLitePCLRaw.core.dll
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\obj\Debug\net5.0\carteiravacina.csproj.AssemblyReference.cache
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\obj\Debug\net5.0\carteiravacina.GeneratedMSBuildEditorConfig.editorconfig
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\obj\Debug\net5.0\carteiravacina.AssemblyInfoInputs.cache
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\obj\Debug\net5.0\carteiravacina.AssemblyInfo.cs
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\obj\Debug\net5.0\carteiravacina.csproj.CoreCompileInputs.cache
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\obj\Debug\net5.0\carteiravacina.MvcApplicationPartsAssemblyInfo.cs
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\obj\Debug\net5.0\carteiravacina.MvcApplicationPartsAssemblyInfo.cache
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\obj\Debug\net5.0\scopedcss\bundle\carteiravacina.styles.css
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\obj\Debug\net5.0\staticwebassets\carteiravacina.StaticWebAssets.Manifest.cache
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\obj\Debug\net5.0\carteiravacina.RazorTargetAssemblyInfo.cache
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\obj\Debug\net5.0\carteiravacina.csproj.CopyComplete
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\obj\Debug\net5.0\carteiravacina.dll
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\obj\Debug\net5.0\refint\carteiravacina.dll
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\obj\Debug\net5.0\carteiravacina.pdb
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\obj\Debug\net5.0\carteiravacina.genruntimeconfig.cache
+D:\ADS_3Q_Hiago\CarteiraVacina-BackEnd-main\obj\Debug\net5.0\ref\carteiravacina.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\appsettings.Development.json
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\appsettings.json
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\carteiravacina.exe
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\carteiravacina.deps.json
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\carteiravacina.runtimeconfig.json
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\carteiravacina.runtimeconfig.dev.json
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\carteiravacina.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\carteiravacina.pdb
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\Humanizer.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Etec\TCC\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Etec\TCC\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.csproj.AssemblyReference.cache
+D:\Etec\TCC\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.GeneratedMSBuildEditorConfig.editorconfig
+D:\Etec\TCC\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.AssemblyInfoInputs.cache
+D:\Etec\TCC\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.AssemblyInfo.cs
+D:\Etec\TCC\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.csproj.CoreCompileInputs.cache
+D:\Etec\TCC\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.MvcApplicationPartsAssemblyInfo.cs
+D:\Etec\TCC\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.MvcApplicationPartsAssemblyInfo.cache
+D:\Etec\TCC\CarteiraVacinacao\obj\Debug\net5.0\scopedcss\bundle\carteiravacina.styles.css
+D:\Etec\TCC\CarteiraVacinacao\obj\Debug\net5.0\staticwebassets\carteiravacina.StaticWebAssets.Manifest.cache
+D:\Etec\TCC\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.RazorTargetAssemblyInfo.cache
+D:\Etec\TCC\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.csproj.CopyComplete
+D:\Etec\TCC\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.dll
+D:\Etec\TCC\CarteiraVacinacao\obj\Debug\net5.0\refint\carteiravacina.dll
+D:\Etec\TCC\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.pdb
+D:\Etec\TCC\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.genruntimeconfig.cache
+D:\Etec\TCC\CarteiraVacinacao\obj\Debug\net5.0\ref\carteiravacina.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao-main\obj\Debug\net5.0\carteiravacina.csproj.AssemblyReference.cache
+D:\Users\luizs\Downloads\CarteiraVacinacao-main\obj\Debug\net5.0\carteiravacina.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\luizs\Downloads\CarteiraVacinacao-main\obj\Debug\net5.0\carteiravacina.AssemblyInfoInputs.cache
+D:\Users\luizs\Downloads\CarteiraVacinacao-main\obj\Debug\net5.0\carteiravacina.AssemblyInfo.cs
+D:\Users\luizs\Downloads\CarteiraVacinacao-main\obj\Debug\net5.0\carteiravacina.csproj.CoreCompileInputs.cache
+D:\Users\luizs\Downloads\CarteiraVacinacao-main\obj\Debug\net5.0\carteiravacina.MvcApplicationPartsAssemblyInfo.cs
+D:\Users\luizs\Downloads\CarteiraVacinacao-main\obj\Debug\net5.0\carteiravacina.MvcApplicationPartsAssemblyInfo.cache
+D:\Users\luizs\Downloads\CarteiraVacinacao-main\obj\Debug\net5.0\carteiravacina.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao-main\obj\Debug\net5.0\refint\carteiravacina.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao-main\obj\Debug\net5.0\carteiravacina.pdb
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\appsettings.json
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\appsettings.Development.json
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\carteiravacina.exe
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\carteiravacina.deps.json
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\carteiravacina.runtimeconfig.json
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\carteiravacina.runtimeconfig.dev.json
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\carteiravacina.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\carteiravacina.pdb
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\Humanizer.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.csproj.AssemblyReference.cache
+D:\Users\luizs\Downloads\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\luizs\Downloads\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.AssemblyInfoInputs.cache
+D:\Users\luizs\Downloads\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.AssemblyInfo.cs
+D:\Users\luizs\Downloads\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.csproj.CoreCompileInputs.cache
+D:\Users\luizs\Downloads\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.MvcApplicationPartsAssemblyInfo.cs
+D:\Users\luizs\Downloads\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.MvcApplicationPartsAssemblyInfo.cache
+D:\Users\luizs\Downloads\CarteiraVacinacao\obj\Debug\net5.0\scopedcss\bundle\carteiravacina.styles.css
+D:\Users\luizs\Downloads\CarteiraVacinacao\obj\Debug\net5.0\staticwebassets\carteiravacina.StaticWebAssets.Manifest.cache
+D:\Users\luizs\Downloads\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.RazorTargetAssemblyInfo.cache
+D:\Users\luizs\Downloads\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.csproj.CopyComplete
+D:\Users\luizs\Downloads\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\obj\Debug\net5.0\refint\carteiravacina.dll
+D:\Users\luizs\Downloads\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.pdb
+D:\Users\luizs\Downloads\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.genruntimeconfig.cache
+D:\Users\luizs\Downloads\CarteiraVacinacao\obj\Debug\net5.0\ref\carteiravacina.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\appsettings.json
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\carteiravacina.exe
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\carteiravacina.deps.json
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\carteiravacina.runtimeconfig.json
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\carteiravacina.runtimeconfig.dev.json
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\carteiravacina.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\ref\carteiravacina.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\carteiravacina.pdb
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\Humanizer.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.csproj.AssemblyReference.cache
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.AssemblyInfoInputs.cache
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.AssemblyInfo.cs
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.csproj.CoreCompileInputs.cache
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\obj\Debug\net5.0\scopedcss\bundle\carteiravacina.styles.css
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\obj\Debug\net5.0\staticwebassets\carteiravacina.StaticWebAssets.Manifest.cache
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.RazorTargetAssemblyInfo.cache
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.csproj.CopyComplete
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\obj\Debug\net5.0\ref\carteiravacina.dll
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.pdb
+C:\Users\artca\OneDrive\Documentos\Análise e Desenvolvimento de Sistemas - Etec\3 SEMESTRE\Desenvolvimento de TCC\CarteiraVacinacao\obj\Debug\net5.0\carteiravacina.genruntimeconfig.cache
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\appsettings.json
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\carteiravacina.exe
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\carteiravacina.deps.json
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\carteiravacina.runtimeconfig.json
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\carteiravacina.runtimeconfig.dev.json
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\carteiravacina.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\carteiravacina.pdb
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\Humanizer.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\obj\Debug\net5.0\carteiravacina.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\obj\Debug\net5.0\carteiravacina.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\obj\Debug\net5.0\carteiravacina.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\obj\Debug\net5.0\carteiravacina.AssemblyInfo.cs
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\obj\Debug\net5.0\carteiravacina.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\obj\Debug\net5.0\carteiravacina.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\obj\Debug\net5.0\carteiravacina.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\obj\Debug\net5.0\scopedcss\bundle\carteiravacina.styles.css
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\obj\Debug\net5.0\staticwebassets\carteiravacina.StaticWebAssets.Manifest.cache
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\obj\Debug\net5.0\carteiravacina.RazorTargetAssemblyInfo.cache
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\obj\Debug\net5.0\carteiravacina.csproj.CopyComplete
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\obj\Debug\net5.0\carteiravacina.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\obj\Debug\net5.0\refint\carteiravacina.dll
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\obj\Debug\net5.0\carteiravacina.pdb
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\obj\Debug\net5.0\carteiravacina.genruntimeconfig.cache
+C:\Users\User\Desktop\AP\Back\CarteiraVacinacao-main\obj\Debug\net5.0\ref\carteiravacina.dll
