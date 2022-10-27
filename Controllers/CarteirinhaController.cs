@@ -154,6 +154,19 @@ namespace carteiravacina.Controllers
             }
         }
 
+        [HttpGet("Card/Listar")]
+        public async Task<IActionResult> ListarCarteiras()
+        {
+            try
+            {
+                List<Carteira> carteiras = await _context.Carteira.ToListAsync();
+                return Ok(carteiras);
+            }
+            catch (System.Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
 
 
     }

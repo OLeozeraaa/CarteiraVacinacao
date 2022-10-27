@@ -18,6 +18,7 @@ namespace CarteiraVacina_BackEnd.Data
         public DbSet<Tutor> Tutor { get; set; }
         public DbSet<TutorAnimal> TutorAnimal { get; set; }
         public DbSet<Vacina> Vacina { get; set; }
+        public DbSet<Carteira> Carteira { get; set; }
         
 
         protected override void OnModelCreating(ModelBuilder builder)
