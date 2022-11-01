@@ -27,12 +27,10 @@ namespace carteiravacina.Controllers
         {
             try
             {
-                CarteiraVacina cv = await _context.CarteiraVacina
-                    .Include(cv => cv.IdCarteira)
-                    .Include(tp => tp.TipoVacina)
-                    .Include(dt => dt.dataVacina)
-                    .Include(pv => pv.ProximaVacina)
-                    .FirstOrDefaultAsync(pBusca => pBusca.IdCarteira == id);
+                Carteira cv = await _context.Carteira
+                    .Include(cv => cv.Id)
+                    .Include(tp => tp.PetName)
+                    .FirstOrDefaultAsync(pBusca => pBusca.Id == id);
 
                 return Ok(cv);
             }
@@ -47,9 +45,9 @@ namespace carteiravacina.Controllers
         {
             try
             {
-              List<CarteiraVacina> carteiravacinas = await _context.CarteiraVacina.ToListAsync();
+              List<Vacina> vacinas = await _context.Vacina.ToListAsync();
 
-              _context.CarteiraVacina.RemoveRange(carteiravacinas);
+              _context.Vacina.RemoveRange(vacinas);
               await _context.SaveChangesAsync(); 
 
               return Ok("Informações Removidas!"); 
@@ -65,10 +63,10 @@ namespace carteiravacina.Controllers
         {
             try
             {
-                CarteiraVacina pRemover = await _context.CarteiraVacina
-                    .FirstOrDefaultAsync(cv => cv.IdCarteira == id);
+                Vacina pRemover = await _context.Vacina
+                    .FirstOrDefaultAsync(cv => cv.IdVacina == id);
 
-                _context.CarteiraVacina.Remove(pRemover);
+                _context.Vacina.Remove(pRemover);
                 int linhasAfetadas = await _context.SaveChangesAsync();
 
                 return Ok(linhasAfetadas);
@@ -95,26 +93,26 @@ namespace carteiravacina.Controllers
         }*/
 
         [HttpPost("Add")]
-        public async Task<IActionResult> Add(CarteiraVacina carteiravacina)
+        public async Task<IActionResult> Add(Vacina vacina)
         {
             try
             {
-                CarteiraVacina carteiraVacina = await _context.CarteiraVacina
-                    .FirstOrDefaultAsync(p => p.IdCarteira == carteiravacina.IdCarteira);
+                Vacina vacinaC = await _context.Vacina
+                    .FirstOrDefaultAsync(p => p.IdVacina == vacina.IdVacina);
 
-                if (carteiraVacina == null)
+                if (vacina == null)
                     throw new System.Exception("Informação invalida!.");
 
                 Vacina vacinA = await _context.Vacina
-                    .FirstOrDefaultAsync(a => a.IdVacina ==  carteiravacina.IdCarteira);
+                    .FirstOrDefaultAsync(a => a.IdVacina ==  vacina.IdVacina);
 
                 if (vacinA != null)
                     throw new System.Exception("Vacina selecionada já contida na carteira");
                 
-                await _context.CarteiraVacina.AddAsync(carteiraVacina);
+                await _context.Vacina.AddAsync(vacina);
                 await _context.SaveChangesAsync();
 
-                return Ok(carteiraVacina.IdCarteira);
+                return Ok(vacina.IdVacina);
             }
             catch (System.Exception ex)
             {
@@ -122,7 +120,22 @@ namespace carteiravacina.Controllers
             }
         }
 
-        [HttpPut("Editar")]
+        [HttpPost("AddV")]
+        public async Task<IActionResult> AdicionarVacina(Vacina vacina)
+        {
+            try
+            {
+                await _context.Vacina.AddAsync(vacina);
+                await _context.SaveChangesAsync();
+                return Ok();
+            }
+            catch(System.Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        /* [HttpPut("Editar")]
         public async Task<IActionResult> EditarCarteira(CarteiraVacina carteiraVacina)
         {
             try
@@ -136,7 +149,7 @@ namespace carteiravacina.Controllers
                 return BadRequest(ex.Message);
             }
         }
-
+ */
 
         [HttpGet("Listar")]
 
@@ -145,8 +158,8 @@ namespace carteiravacina.Controllers
         {
             try
             {
-                List<CarteiraVacina> carteiravacinas = await _context.CarteiraVacina.ToListAsync(); 
-                return Ok(carteiravacinas);
+                List<Vacina> vacinas = await _context.Vacina.ToListAsync(); 
+                return Ok(vacinas);
             }
             catch (System.Exception ex)
             {

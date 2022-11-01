@@ -21,7 +21,7 @@ namespace carteiravacina.Controllers
             _context = context;
         }
 
-        [HttpPost("Add")]
+        /* [HttpPost("Add")]
         public async Task<IActionResult> AdicionarCarteira(Animal animal)
         {
             try
@@ -49,7 +49,7 @@ namespace carteiravacina.Controllers
             {
                 return BadRequest(ex.Message);
             }
-        }
+        } */
 
         public async Task<IActionResult> ListarAsync()
         {

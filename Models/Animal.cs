@@ -1,5 +1,6 @@
 using System;
 using System.Text.Json.Serialization;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace carteiravacina.Models
 {
@@ -25,5 +26,7 @@ namespace carteiravacina.Models
         public Situacao Situacao { get; set; }
         public int IdRGA { get; set; }
         public float peso { get; set; }
+
+        
     }
 }

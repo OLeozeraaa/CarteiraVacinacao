@@ -8,7 +8,6 @@ namespace CarteiraVacina_BackEnd.Data
     {
         public DataContext(DbContextOptions<DataContext> options) : base (options) { }        
         public DbSet<Animal> Animal { get; set; }
-        public DbSet<CarteiraVacina> CarteiraVacina { get; set; }
         public DbSet<Especie> Especie { get; set; }
         public DbSet<Login> Login { get; set; }
         public DbSet<Perfil> Perfil { get; set; }
@@ -17,8 +16,9 @@ namespace CarteiraVacina_BackEnd.Data
         public DbSet<Situacao> Situacao { get; set; }
         public DbSet<Tutor> Tutor { get; set; }
         public DbSet<TutorAnimal> TutorAnimal { get; set; }
-        public DbSet<Vacina> Vacina { get; set; }
+        //public DbSet<Vacina> Vacina { get; set; }
         public DbSet<Carteira> Carteira { get; set; }
+        public DbSet<Vacina> Vacina { get; set; }
         
 
         protected override void OnModelCreating(ModelBuilder builder)
@@ -177,8 +177,8 @@ namespace CarteiraVacina_BackEnd.Data
                     new Racas (129,2,"Angorá turco","Médio","-"),
                 });
 
-                builder.Entity<Situacao>()
-                .HasKey(ST => new { ST.IdSituacao, ST.DescricaoSituacao });
+            builder.Entity<Situacao>()
+            .HasKey(ST => new { ST.IdSituacao, ST.DescricaoSituacao });
 
             builder.Entity<Situacao>()
                 .HasData(new List<Situacao>(){
@@ -188,7 +188,7 @@ namespace CarteiraVacina_BackEnd.Data
                     new Situacao(4, "Para adoção"),
                 });
 
-                builder.Entity<Vacina>()
+                /* builder.Entity<Vacina>()
                 .HasKey(VC => new { VC.IdVacina });
 
             builder.Entity<Vacina>()
@@ -200,7 +200,7 @@ namespace CarteiraVacina_BackEnd.Data
                     new Vacina (5,"Anti-Rábica",1,1,12),
                     new Vacina (6,"Quádrupla Felina",2,3,4),
                     new Vacina (7,"Anti-Rábica",2,1,12),
-                });
+                }); */
 
                 builder.Entity<Perfil>()
                 .HasKey(PL => new { PL.IdCodigo });
@@ -217,8 +217,29 @@ namespace CarteiraVacina_BackEnd.Data
                 builder.Entity<Login>()
                 .HasKey(LG => new { LG.Id });
 
-                builder.Entity<CarteiraVacina>()
-                .HasKey(CV => new { CV.IdCarteira });
+                builder.Entity<Vacina>()
+                .HasKey(VC => new { VC.IdVacina });
+
+                builder.Entity<Vacina>()
+                .HasData(new List<Vacina>(){
+                    new Vacina (1,System.DateTime.Now,"V8",1,System.DateTime.Now),
+                    new Vacina (2,System.DateTime.Now,"V10",1,System.DateTime.Now),
+                    new Vacina (3,System.DateTime.Now,"Gripe Canina",1,System.DateTime.Now),
+                    new Vacina (4,System.DateTime.Now,"Giardíase", 1 ,System.DateTime.Now),
+                    new Vacina (5,System.DateTime.Now,"Anti-Rábica",2 ,System.DateTime.Now),
+                    new Vacina (6,System.DateTime.Now,"Quádrupla Felina",2 ,System.DateTime.Now),
+                    new Vacina (7,System.DateTime.Now,"Anti-Rábica",2 ,System.DateTime.Now)
+                });
+
+                builder.Entity<Carteira>()
+                .HasKey(CT => new { CT.Id });
+
+                builder.Entity<Carteira>()
+                .HasData(new List<Carteira>(){
+                    new Carteira(1,"Rosa"),
+                    new Carteira(2,"Pipoca"),
+                    new Carteira(3,"Mano")
+                });
         }
     }
 }

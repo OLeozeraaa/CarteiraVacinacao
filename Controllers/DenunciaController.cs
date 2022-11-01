@@ -19,7 +19,7 @@ namespace carteiravacina.Controllers
             _context = context;
         }
 
-        [HttpGet("{id}")]
+        /* [HttpGet("{id}")]
         public async Task<IActionResult> GetSingle(int id)
         {
             try
@@ -54,7 +54,7 @@ namespace carteiravacina.Controllers
                 return BadRequest(ex.Message);
             }
         }
-
+ */
 
     }
 }
