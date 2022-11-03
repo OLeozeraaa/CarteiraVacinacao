@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore;
 namespace carteiravacina.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class CarteirinhaController : ControllerBase
     {
         private readonly DataContext _context;
@@ -133,6 +133,40 @@ namespace carteiravacina.Controllers
             {
                 return BadRequest(ex.Message);
             }
+        }
+
+        [HttpPost("AddC")]
+        public async Task<IActionResult> AdicionarCarteirinha(Carteira carteira)
+        {
+            try
+            {
+                await _context.Carteira.AddAsync(carteira);
+                await _context.SaveChangesAsync();
+                return Ok();
+            }
+            catch(System.Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpDelete("DeleteC/{id}")]
+        public async Task<IActionResult> DeleteC(int id)
+        {
+            try
+            {
+                Carteira pRemover = await _context.Carteira
+                    .FirstOrDefaultAsync(cv => cv.Id == id);
+
+                _context.Carteira.Remove(pRemover);
+                int linhasAfetadas = await _context.SaveChangesAsync();
+
+                return Ok(linhasAfetadas);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            } 
         }
 
         /* [HttpPut("Editar")]
