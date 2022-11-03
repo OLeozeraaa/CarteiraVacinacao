@@ -7,25 +7,28 @@ namespace carteiravacina.Models
     
     public class Animal
     {
-        public Animal(int idAnimal, string nome, DateTime dtNascimento, string pelagem, int idRGA, float peso)
+        public Animal(int id, string nome, int idEspecie, int idRaca, int idSexo, DateTime dtNascimento, string pelagem, int idSituacao, float peso)
         {
-            this.IdAnimal = idAnimal;
+            this.Id = id;
             this.Nome = nome;
-            this.dtNascimento = dtNascimento;
+            this.IdEspecie = idEspecie;
+            this.IdRaca = idRaca;
+            this.IdSexo = idSexo;
+            this.DtNascimento = dtNascimento;
             this.Pelagem = pelagem;
-            this.IdRGA = idRGA;
-            this.peso = peso;
+            this.IdSituacao = idSituacao;
+            this.Peso = peso;
 
         }
-        public int IdAnimal { get; set; }
+        public int Id { get; set; }
         public string Nome { get; set; }
-        public Especie Especie { get; set;}
-        public Racas Racas { get; set; }
-        public DateTime dtNascimento { get; set; }
+        public int IdEspecie { get; set;}
+        public int IdRaca { get; set; }
+        public int IdSexo { get; set; }
+        public DateTime DtNascimento { get; set; }
         public string Pelagem { get; set; }
-        public Situacao Situacao { get; set; }
-        public int IdRGA { get; set; }
-        public float peso { get; set; }
+        public int IdSituacao { get; set; }
+        public float Peso { get; set; }
 
         
     }

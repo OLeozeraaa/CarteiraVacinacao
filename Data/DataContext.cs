@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using carteiravacina.Models;
+using CarteiraVacinacao.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace CarteiraVacina_BackEnd.Data
@@ -19,12 +20,13 @@ namespace CarteiraVacina_BackEnd.Data
         //public DbSet<Vacina> Vacina { get; set; }
         public DbSet<Carteira> Carteira { get; set; }
         public DbSet<Vacina> Vacina { get; set; }
+        public DbSet<RGA> RGA { get; set; }
         
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.Entity<Sexos>()
-                .HasKey(SX => new { SX.IdSexo });
+                .HasKey(SX => new { SX.idSexo });
 
             builder.Entity<Sexos>()
                 .HasData(new List<Sexos>(){
@@ -206,7 +208,7 @@ namespace CarteiraVacina_BackEnd.Data
                 .HasKey(PL => new { PL.IdCodigo });
 
                 builder.Entity<Animal>()
-                .HasKey(AN => new { AN.IdAnimal });
+                .HasKey(AN => new { AN.Id });
 
                 builder.Entity<Tutor>()
                 .HasKey(TT => new { TT.IdTutor });
@@ -240,6 +242,9 @@ namespace CarteiraVacina_BackEnd.Data
                     new Carteira(2,"Pipoca"),
                     new Carteira(3,"Mano")
                 });
+
+                builder.Entity<RGA>()
+                .HasKey(RG => new { RG.IdRGA });
         }
     }
 }
