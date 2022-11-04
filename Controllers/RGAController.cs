@@ -114,5 +114,24 @@ namespace carteiravacina.Controllers
             }
         }
 
+        [HttpDelete("Remover/{id}")]
+        public async Task<IActionResult> DeleteC(int id)
+        {
+            try
+            {
+                RGA pRemover = await _context.RGA
+                    .FirstOrDefaultAsync(rga => rga.IdRGA == id);
+
+                _context.RGA.Remove(pRemover);
+                int linhasAfetadas = await _context.SaveChangesAsync();
+
+                return Ok(linhasAfetadas);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            } 
+        }
+
    }
 }
