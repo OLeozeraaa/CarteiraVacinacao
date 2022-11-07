@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A+MQ63Wh6TMwvjQ8RhSCOT9vFABZxJsxdtJG5WM2i0FVg68rlhyLG0yPrfnFbfOO1cVwl4BXNoTyfKpB2TptNg==",
+  "dgSpecHash": "6WbrDrGhcIoSpdAUh91iXsgx6DBX76K2/Thd8aYMLVQDViiualjD8QXj/RusdnGj6XlRrqm1xa7yDXTvFnG9UA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\artca\\OneDrive\\Documentos\\Análise e Desenvolvimento de Sistemas - Etec\\3 SEMESTRE\\Desenvolvimento de TCC\\CarteiraVacinacao\\carteiravacina.csproj",
+  "projectFilePath": "C:\\Users\\artca\\OneDrive\\Documentos\\Análise e Desenvolvimento de Sistemas - Etec\\3 SEMESTRE\\Desenvolvimento de TCC\\CarteiraVacinaca\\carteiravacina.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\artca\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\artca\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using carteiravacina.Models;
@@ -9,16 +8,18 @@ using Microsoft.EntityFrameworkCore;
 
 namespace carteiravacina.Controllers
 {
+    
     [ApiController]
     [Route("[controller]")]
-    public class DenunciaController : ControllerBase
+    public class ClienteController : ControllerBase
     {
         private readonly DataContext _context;
 
-        public DenunciaController(DataContext context)
+        public ClienteController(DataContext context)
         {
             _context = context;
         }
+        
 
         [HttpGet("ListarR")]
         public async Task<IActionResult> ListarAsyncV()
@@ -34,24 +35,8 @@ namespace carteiravacina.Controllers
             }
         }
 
-        [HttpGet("ListarC")]
-
-
-        public async Task<IActionResult> ListarAsyncC()
-        {
-            try
-            {
-                List<Animal> animais = await _context.Animal.ToListAsync(); 
-                return Ok(animais);
-            }
-            catch (System.Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
-
         [HttpGet("ListarT")]
-        public async Task<IActionResult> ListarAsyncT()
+        public async Task<IActionResult> ListarAsynct()
         {
             try
             {
@@ -64,4 +49,4 @@ namespace carteiravacina.Controllers
             }
         }
     }
-  }
+    }

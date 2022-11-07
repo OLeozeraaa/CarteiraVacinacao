@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\artca\\OneDrive\\Documentos\\Análise e Desenvolvimento de Sistemas - Etec\\3 SEMESTRE\\Desenvolvimento de TCC\\CarteiraVacinacao\\carteiravacina.csproj": {}
+    "C:\\Users\\artca\\OneDrive\\Documentos\\Análise e Desenvolvimento de Sistemas - Etec\\3 SEMESTRE\\Desenvolvimento de TCC\\CarteiraVacinaca\\carteiravacina.csproj": {}
   },
   "projects": {
-    "C:\\Users\\artca\\OneDrive\\Documentos\\Análise e Desenvolvimento de Sistemas - Etec\\3 SEMESTRE\\Desenvolvimento de TCC\\CarteiraVacinacao\\carteiravacina.csproj": {
+    "C:\\Users\\artca\\OneDrive\\Documentos\\Análise e Desenvolvimento de Sistemas - Etec\\3 SEMESTRE\\Desenvolvimento de TCC\\CarteiraVacinaca\\carteiravacina.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\artca\\OneDrive\\Documentos\\Análise e Desenvolvimento de Sistemas - Etec\\3 SEMESTRE\\Desenvolvimento de TCC\\CarteiraVacinacao\\carteiravacina.csproj",
+        "projectUniqueName": "C:\\Users\\artca\\OneDrive\\Documentos\\Análise e Desenvolvimento de Sistemas - Etec\\3 SEMESTRE\\Desenvolvimento de TCC\\CarteiraVacinaca\\carteiravacina.csproj",
         "projectName": "carteiravacina",
-        "projectPath": "C:\\Users\\artca\\OneDrive\\Documentos\\Análise e Desenvolvimento de Sistemas - Etec\\3 SEMESTRE\\Desenvolvimento de TCC\\CarteiraVacinacao\\carteiravacina.csproj",
+        "projectPath": "C:\\Users\\artca\\OneDrive\\Documentos\\Análise e Desenvolvimento de Sistemas - Etec\\3 SEMESTRE\\Desenvolvimento de TCC\\CarteiraVacinaca\\carteiravacina.csproj",
         "packagesPath": "C:\\Users\\artca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\artca\\OneDrive\\Documentos\\Análise e Desenvolvimento de Sistemas - Etec\\3 SEMESTRE\\Desenvolvimento de TCC\\CarteiraVacinacao\\obj\\",
+        "outputPath": "C:\\Users\\artca\\OneDrive\\Documentos\\Análise e Desenvolvimento de Sistemas - Etec\\3 SEMESTRE\\Desenvolvimento de TCC\\CarteiraVacinaca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\artca\\AppData\\Roaming\\NuGet\\NuGet.Config"
