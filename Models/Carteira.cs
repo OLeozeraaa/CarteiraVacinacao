@@ -7,13 +7,13 @@ namespace carteiravacina.Models
 {
     public class Carteira
     {
-        public Carteira(int id, string petName)
+        public Carteira(int id, int animalIdAnimal)
         {
             this.Id = id;
-            this.PetName = petName;
+            this.AnimalIdAnimal = animalIdAnimal;
         }
         public int Id { get; set; }
-        public string PetName { get; set; }
+        public int AnimalIdAnimal { get; set; }
 
         /* [ForeignKey("PetName")]
         public virtual Animal Animal { get; set; } */

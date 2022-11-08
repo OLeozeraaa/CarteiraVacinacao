@@ -44,7 +44,7 @@ namespace CarteiraVacina_BackEnd.Data
                 });
             
             builder.Entity<Racas>()
-                .HasKey(RC => new { RC.IdRaca, RC.IdEspecie });
+                .HasKey(RC => new { RC.idRaca, RC.idEspecie });
 
             builder.Entity<Racas>()
                 .HasData(new List<Racas>(){
@@ -236,12 +236,12 @@ namespace CarteiraVacina_BackEnd.Data
                 builder.Entity<Carteira>()
                 .HasKey(CT => new { CT.Id });
 
-                builder.Entity<Carteira>()
+                /* builder.Entity<Carteira>()
                 .HasData(new List<Carteira>(){
                     new Carteira(1,"Rosa"),
                     new Carteira(2,"Pipoca"),
                     new Carteira(3,"Mano")
-                });
+                }); */
 
                 builder.Entity<RGA>()
                 .HasKey(RG => new { RG.IdRGA });

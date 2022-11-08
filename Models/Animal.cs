@@ -7,7 +7,7 @@ namespace carteiravacina.Models
     
     public class Animal
     {
-        public Animal(int id, string nome, int idEspecie, int idRaca, int idSexo, DateTime dtNascimento, string pelagem, int idSituacao, float peso)
+        public Animal(int id, string nome, int idEspecie, int idRaca, int idSexo, DateTime dtNascimento, string pelagem, int idSituacao, double peso)
         {
             this.Id = id;
             this.Nome = nome;
@@ -28,7 +28,7 @@ namespace carteiravacina.Models
         public DateTime DtNascimento { get; set; }
         public string Pelagem { get; set; }
         public int IdSituacao { get; set; }
-        public float Peso { get; set; }
+        public double Peso { get; set; }
 
         
     }

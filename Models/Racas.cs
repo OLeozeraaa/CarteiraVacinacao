@@ -3,19 +3,19 @@ namespace carteiravacina.Models
 {
     public class Racas
     {
-        public Racas(int idRaca, int idEspecie, string descricaoRaca, string porteRaca, string crRaca)
+        public Racas(int idRaca, int idEspecie, string dsRaca, string ptRaca, string crRaca)
         {
-            this.IdRaca = idRaca;
-            this.IdEspecie = idEspecie;
-            this.DescricaoRaca = descricaoRaca;
-            this.PorteRaca = porteRaca;
+            this.idRaca = idRaca;
+            this.idEspecie = idEspecie;
+            this.dsRaca = dsRaca;
+            this.ptRaca = ptRaca;
             this.crRaca = crRaca;
 
         }
-        public int IdRaca { get; set; }
-        public int IdEspecie { get; set; }
-        public string DescricaoRaca { get; set; }
-        public string PorteRaca { get; set; }
+        public int idRaca { get; set; }
+        public int idEspecie { get; set; }
+        public string dsRaca { get; set; }
+        public string ptRaca { get; set; }
         public string crRaca { get; set; }
     }
 }

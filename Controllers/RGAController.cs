@@ -66,7 +66,7 @@ namespace carteiravacina.Controllers
             }
         }
 
-        [HttpGet("{id}")]
+        /* [HttpGet("{id}")]
         public async Task<IActionResult> GetSingle(int id)
         {
             try
@@ -94,7 +94,7 @@ namespace carteiravacina.Controllers
                 return BadRequest(ex.Message);
             }
 
-        }
+        } */
 
         [HttpDelete("Remover")] 
         public async Task<IActionResult> DeleteAsync()
