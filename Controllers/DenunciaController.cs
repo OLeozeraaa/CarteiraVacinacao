@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using carteiravacina.Models;
 using CarteiraVacina_BackEnd.Data;
 using CarteiraVacinacao.Models;
+using CarteiraVacinaca.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -57,6 +58,35 @@ namespace carteiravacina.Controllers
             {
                 List<Tutor> tutor = await _context.Tutor.ToListAsync(); 
                 return Ok(tutor);
+            }
+            catch (System.Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPost("Salvar")]
+        public async Task<IActionResult> Salvar(Desaparecido desaparecido)
+        {
+            try
+            {
+                await _context.Desaparecido.AddAsync(desaparecido);
+                await _context.SaveChangesAsync();
+                return Ok();
+            }
+            catch(System.Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("ListarD")]
+        public async Task<IActionResult> ListarAsyncD()
+        {
+            try
+            {
+                List<Desaparecido> desaparecido = await _context.Desaparecido.ToListAsync(); 
+                return Ok(desaparecido);
             }
             catch (System.Exception ex)
             {

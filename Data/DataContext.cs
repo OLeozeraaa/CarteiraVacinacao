@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using carteiravacina.Models;
 using CarteiraVacinacao.Models;
 using Microsoft.EntityFrameworkCore;
+using CarteiraVacinaca.Models;
 
 namespace CarteiraVacina_BackEnd.Data
 {
@@ -21,6 +22,7 @@ namespace CarteiraVacina_BackEnd.Data
         public DbSet<Carteira> Carteira { get; set; }
         public DbSet<Vacina> Vacina { get; set; }
         public DbSet<RGA> RGA { get; set; }
+        public DbSet<Desaparecido> Desaparecido { get; set; }
         
 
         protected override void OnModelCreating(ModelBuilder builder)
@@ -245,6 +247,9 @@ namespace CarteiraVacina_BackEnd.Data
 
                 builder.Entity<RGA>()
                 .HasKey(RG => new { RG.IdRGA });
+
+                builder.Entity<Desaparecido>()
+                .HasKey(DP => new { DP.Id });
         }
     }
 }
