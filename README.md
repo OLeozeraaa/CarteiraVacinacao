@@ -19,6 +19,7 @@ O projeto foi desenvolvido em C# usando Dotnet / Asp utilizando configurações 
 ## Como rodar o repositório
 
 Para rodar o projeto por meio desse repositório, basta ir no terminal local e usar **git clone https://github.com/HiagoLCarvalho/CarteiraVacinacao**.
+
 Depois basta executar com o comando **dotnet run**.
 
 ### Quaisquer dúvidas
