@@ -6,7 +6,7 @@ namespace CarteiraVacinaca.Models
 {
     public class Desaparecido
     {
-        public Desaparecido(int id, string nome, int idEspecie, int idRaca, DateTime dtDesaparecimento, string lugar, string dono, string telefone/* , int idAnimal */, string foto)
+        public Desaparecido(int id, string nome, int idEspecie, int idRaca, DateTime dtDesaparecimento, string lugar, string dono, string telefone, int idAnimal, string foto)
         {
             this.Id = id;
             this.Nome = nome;
@@ -16,7 +16,7 @@ namespace CarteiraVacinaca.Models
             this.Lugar = lugar;
             this.Dono = dono;
             this.Telefone = telefone;
-            //this.IdAnimal = idAnimal;
+            this.IdAnimal = idAnimal;
             this.Foto = foto;
         }
         public int Id { get; set; }
@@ -27,7 +27,7 @@ namespace CarteiraVacinaca.Models
         public string Dono { get; set; }
         public string Lugar { get; set; }
         public string Telefone { get; set; }
-        //public int IdAnimal { get; set; }
+        public int IdAnimal { get; set; }
         public string Foto { get; set; }
     }
 }
