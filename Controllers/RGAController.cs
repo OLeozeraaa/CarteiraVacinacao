@@ -27,6 +27,9 @@ namespace carteiravacina.Controllers
         {
             try
             {
+                /* string minDate = "01/01/1753 00:00:00 PM";
+                if(rga.DataAdicao <= DateTime.Parse(minDate))
+                    rga.DataAdicao.Equals(null); */
                 await _context.RGA.AddAsync(rga);
                 await _context.SaveChangesAsync();
                 return Ok();

@@ -7,7 +7,7 @@ namespace carteiravacina.Models
 {
     public class Carteira
     {
-        public Carteira(int id, int animalIdAnimal, DateTime dataAdicao)
+        public Carteira(int id, int animalIdAnimal, DateTime? dataAdicao)
         {
             this.Id = id;
             this.AnimalIdAnimal = animalIdAnimal;
@@ -15,7 +15,7 @@ namespace carteiravacina.Models
         }
         public int Id { get; set; }
         public int AnimalIdAnimal { get; set; }
-        public DateTime DataAdicao { get; set; }
+        public DateTime? DataAdicao { get; set; }
 
         /* [ForeignKey("PetName")]
         public virtual Animal Animal { get; set; } */

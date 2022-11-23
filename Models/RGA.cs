@@ -6,7 +6,7 @@ namespace CarteiraVacinacao.Models
 {
     public class RGA
     {
-        public RGA(int idRGA, int idAnimal, /*string nome, int idEspecie, int idRaca, int idSexo, DateTime dtNascimento, string pelagem,*/ string assinatura, string pata, int chip, int rga, string foto, DateTime dataAdicao)
+        public RGA(int idRGA, int idAnimal, /*string nome, int idEspecie, int idRaca, int idSexo, DateTime dtNascimento, string pelagem,*/ string assinatura, string pata, int chip, int rga, string foto, DateTime? dataAdicao)
         {
             this.IdRGA = idRGA;
             this.IdAnimal = idAnimal;
@@ -30,7 +30,7 @@ namespace CarteiraVacinacao.Models
         public string Assinatura { get; set; }
         public string Pata { get; set; }
         public string Foto { get; set; }
-        public DateTime DataAdicao { get; set; }
+        public DateTime? DataAdicao { get; set; }
         //public string Nome { get; set; }
         //public int IdEspecie { get; set;}
         //public int IdRaca { get; set; }
