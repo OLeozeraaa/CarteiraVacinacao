@@ -20,10 +20,10 @@ CREATE TABLE [Especie] (
 GO
 
 CREATE TABLE [Login] (
-    [PasswordHash] nvarchar(450) NOT NULL,
-    [username] nvarchar(max) NULL,
-    [PasswordString] nvarchar(max) NULL,
-    [PasswordSalt] nvarchar(max) NULL,
+    [PasswordHash] varbinary(8000) NOT NULL,
+    [username] varchar(max) NULL,
+    [PasswordString] varchar(max) NULL,
+    [PasswordSalt] varbinary(8000) NULL,
     CONSTRAINT [PK_Login] PRIMARY KEY ([PasswordHash])
 );
 GO
