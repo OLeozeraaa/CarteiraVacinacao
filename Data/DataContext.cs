@@ -23,6 +23,7 @@ namespace CarteiraVacina_BackEnd.Data
         public DbSet<Vacina> Vacina { get; set; }
         public DbSet<RGA> RGA { get; set; }
         public DbSet<Desaparecido> Desaparecido { get; set; }
+        public DbSet<DesaparecidoSemRegistro> DesaparecidoSemRegistro { get; set; }
         
 
         protected override void OnModelCreating(ModelBuilder builder)
@@ -249,6 +250,9 @@ namespace CarteiraVacina_BackEnd.Data
                 .HasKey(RG => new { RG.IdRGA });
 
                 builder.Entity<Desaparecido>()
+                .HasKey(DP => new { DP.Id });
+
+                builder.Entity<DesaparecidoSemRegistro>()
                 .HasKey(DP => new { DP.Id });
         }
     }

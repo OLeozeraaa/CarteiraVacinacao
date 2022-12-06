@@ -93,5 +93,34 @@ namespace carteiravacina.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+        [HttpPost("AddNoRegister")]
+        public async Task<IActionResult> AdicionarNaoRegistrado(DesaparecidoSemRegistro desaparecido)
+        {
+            try
+            {
+                await _context.DesaparecidoSemRegistro.AddAsync(desaparecido);
+                await _context.SaveChangesAsync();
+                return Ok();
+            }
+            catch(System.Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+        }
+        [HttpGet("ListarDSR")]
+        public async Task<IActionResult> ListarAsyncDSR()
+        {
+            try
+            {
+                List<DesaparecidoSemRegistro> desaparecido = await _context.DesaparecidoSemRegistro.ToListAsync(); 
+                return Ok(desaparecido);
+            }
+            catch (System.Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
   }
