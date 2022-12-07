@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using carteiravacina.Models;
+using CarteiraVacinacao.Models;
 using CarteiraVacina_BackEnd.Data;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -21,12 +22,12 @@ namespace carteiravacina.Controllers
             _context = context;
         }
 
-        /* [HttpPost("Add")]
-        public async Task<IActionResult> AdicionarCarteira(Animal animal)
+        [HttpPost("Add")]
+        public async Task<IActionResult> AdicionarRGA(RGA rga)
         {
             try
             {
-                await _context.Animal.AddAsync(animal);
+                await _context.RGA.AddAsync(rga);
                 await _context.SaveChangesAsync();
                 return Ok();
             }
@@ -36,27 +37,13 @@ namespace carteiravacina.Controllers
             }
         }
 
-        [HttpPut("Editar")]
-        public async Task<IActionResult> EditarCarteira(CarteiraVacina carteiraVacina)
-        {
-            try
-            {
-                _context.CarteiraVacina.Update(carteiraVacina);
-                await _context.SaveChangesAsync();
-                return Ok();
-            }
-            catch(System.Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        } */
-
+        [HttpGet("Listar")]
         public async Task<IActionResult> ListarAsync()
         {
             try
             {
-                List<Animal> animal = await _context.Animal.ToListAsync(); 
-                return Ok(animal);
+                List<RGA> rga = await _context.RGA.ToListAsync(); 
+                return Ok(rga);
             }
             catch (System.Exception ex)
             {
@@ -64,27 +51,41 @@ namespace carteiravacina.Controllers
             }
         }
 
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetSingle(int id)
+        [HttpDelete("Remover")] 
+        public async Task<IActionResult> DeleteAsync()
         {
             try
             {
-                Animal al = await _context.Animal
-                    .Include(ia => ia.IdAnimal)
-                    .Include(nm => nm.Nome)
-                    .Include(dt => dt.dtNascimento)
-                    .Include(pl => pl.Pelagem)
-                    .Include(rga => rga.IdRGA)
-                    .Include(ps => ps.peso)
-                    .FirstOrDefaultAsync(pBusca => pBusca.IdAnimal == id);
+              List<RGA>rga = await _context.RGA.ToListAsync();
 
-                return Ok(al);
+              _context.RGA.RemoveRange(rga);
+              await _context.SaveChangesAsync(); 
+
+              return Ok("Informações Removidas!"); 
+            }
+            catch (System.Exception ex)
+            {
+              return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpDelete("Remover/{id}")]
+        public async Task<IActionResult> DeleteC(int id)
+        {
+            try
+            {
+                RGA pRemover = await _context.RGA
+                    .FirstOrDefaultAsync(rga => rga.IdRGA == id);
+
+                _context.RGA.Remove(pRemover);
+                int linhasAfetadas = await _context.SaveChangesAsync();
+
+                return Ok(linhasAfetadas);
             }
             catch (Exception ex)
             {
                 return BadRequest(ex.Message);
-            }
-
+            } 
         }
 
    }

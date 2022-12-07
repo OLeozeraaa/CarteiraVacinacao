@@ -22,24 +22,6 @@ namespace carteiravacina.Controllers
             _context = context;
         }
 
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetSingle(int id)
-        {
-            try
-            {
-                Carteira cv = await _context.Carteira
-                    .Include(cv => cv.Id)
-                    .Include(tp => tp.PetName)
-                    .FirstOrDefaultAsync(pBusca => pBusca.Id == id);
-
-                return Ok(cv);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
-        
         [HttpDelete("ApagarVacinas")] 
         public async Task<IActionResult> DeleteAsync()
         {
@@ -76,21 +58,6 @@ namespace carteiravacina.Controllers
                 return BadRequest(ex.Message);
             } 
         }
-
-        /*[HttpPost("Add")]
-        public async Task<IActionResult> AdicionarCarteira(CarteiraVacina carteiraVacina)
-        {
-            try
-            {
-                await _context.CarteiraVacina.AddAsync(carteiraVacina);
-                await _context.SaveChangesAsync();
-                return Ok();
-            }
-            catch(System.Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }*/
 
         [HttpPost("Add")]
         public async Task<IActionResult> Add(Vacina vacina)
@@ -168,22 +135,6 @@ namespace carteiravacina.Controllers
                 return BadRequest(ex.Message);
             } 
         }
-
-        /* [HttpPut("Editar")]
-        public async Task<IActionResult> EditarCarteira(CarteiraVacina carteiraVacina)
-        {
-            try
-            {
-                _context.CarteiraVacina.Update(carteiraVacina);
-                await _context.SaveChangesAsync();
-                return Ok();
-            }
-            catch(System.Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
- */
 
         [HttpGet("Listar")]
 

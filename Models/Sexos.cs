@@ -3,13 +3,13 @@ namespace carteiravacina.Models
 {
     public class Sexos
     {
-        public Sexos(int idSexo, string descricaoSexo)
+        public Sexos(int idSexo, string dsSexo)
         {
-            this.IdSexo = idSexo;
-            this.DescricaoSexo = descricaoSexo;
+            this.idSexo = idSexo;
+            this.dsSexo = dsSexo;
 
         }
-        public int IdSexo { get; set; }
-        public string DescricaoSexo { get; set; }
+        public int idSexo { get; set; }
+        public string dsSexo { get; set; }
     }
 }

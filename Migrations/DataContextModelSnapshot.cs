@@ -44,6 +44,9 @@ namespace carteiravacina.Migrations
                     b.Property<int?>("RacasIdRaca")
                         .HasColumnType("int");
 
+                    b.Property<int?>("SexosIdSexo")
+                        .HasColumnType("int");
+
                     b.Property<string>("SituacaoDescricaoSituacao")
                         .HasColumnType("nvarchar(450)");
 
@@ -60,6 +63,8 @@ namespace carteiravacina.Migrations
 
                     b.HasIndex("EspecieIdEspecie");
 
+                    b.HasIndex("SexosIdSexo");
+
                     b.HasIndex("RacasIdRaca", "RacasIdEspecie");
 
                     b.HasIndex("SituacaoIdSituacao", "SituacaoDescricaoSituacao");
@@ -67,36 +72,33 @@ namespace carteiravacina.Migrations
                     b.ToTable("Animal");
                 });
 
-            modelBuilder.Entity("carteiravacina.Models.Carteira", b =>
+            modelBuilder.Entity("carteiravacina.Models.CarteiraVacina", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("IdCarteira")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("PetName")
+                    b.Property<int?>("IdAnimal")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Medicamento")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.Property<DateTime>("ProxVacina")
+                        .HasColumnType("datetime2");
 
-                    b.ToTable("Carteira");
+                    b.Property<string>("TipoVacina")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            PetName = "Rosa"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            PetName = "Pipoca"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            PetName = "Mano"
-                        });
+                    b.Property<DateTime>("dataVacina")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("IdCarteira");
+
+                    b.HasIndex("IdAnimal");
+
+                    b.ToTable("CarteiraVacina");
                 });
 
             modelBuilder.Entity("carteiravacina.Models.Especie", b =>
@@ -1358,21 +1360,19 @@ namespace carteiravacina.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("CarteiraId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("DataVacina")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Medicamento")
+                    b.Property<string>("DescriacaoVacina")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("ProximaVacina")
-                        .HasColumnType("datetime2");
+                    b.Property<int>("IdEspecie")
+                        .HasColumnType("int");
+
+                    b.Property<int>("doseVacina")
+                        .HasColumnType("int");
+
+                    b.Property<int>("intervaloVacina")
+                        .HasColumnType("int");
 
                     b.HasKey("IdVacina");
-
-                    b.HasIndex("CarteiraId");
 
                     b.ToTable("Vacina");
 
@@ -1380,58 +1380,58 @@ namespace carteiravacina.Migrations
                         new
                         {
                             IdVacina = 1,
-                            CarteiraId = 1,
-                            DataVacina = new DateTime(2022, 11, 21, 19, 47, 7, 133, DateTimeKind.Local).AddTicks(621),
-                            Medicamento = "V8",
-                            ProximaVacina = new DateTime(2022, 11, 21, 19, 47, 7, 135, DateTimeKind.Local).AddTicks(8368)
+                            DescriacaoVacina = "V8",
+                            IdEspecie = 1,
+                            doseVacina = 3,
+                            intervaloVacina = 1
                         },
                         new
                         {
                             IdVacina = 2,
-                            CarteiraId = 1,
-                            DataVacina = new DateTime(2022, 11, 21, 19, 47, 7, 136, DateTimeKind.Local).AddTicks(4173),
-                            Medicamento = "V10",
-                            ProximaVacina = new DateTime(2022, 11, 21, 19, 47, 7, 136, DateTimeKind.Local).AddTicks(4188)
+                            DescriacaoVacina = "V10",
+                            IdEspecie = 1,
+                            doseVacina = 3,
+                            intervaloVacina = 1
                         },
                         new
                         {
                             IdVacina = 3,
-                            CarteiraId = 1,
-                            DataVacina = new DateTime(2022, 11, 21, 19, 47, 7, 136, DateTimeKind.Local).AddTicks(4194),
-                            Medicamento = "Gripe Canina",
-                            ProximaVacina = new DateTime(2022, 11, 21, 19, 47, 7, 136, DateTimeKind.Local).AddTicks(4197)
+                            DescriacaoVacina = "Gripe Canina",
+                            IdEspecie = 1,
+                            doseVacina = 2,
+                            intervaloVacina = 1
                         },
                         new
                         {
                             IdVacina = 4,
-                            CarteiraId = 1,
-                            DataVacina = new DateTime(2022, 11, 21, 19, 47, 7, 136, DateTimeKind.Local).AddTicks(4201),
-                            Medicamento = "Giardíase",
-                            ProximaVacina = new DateTime(2022, 11, 21, 19, 47, 7, 136, DateTimeKind.Local).AddTicks(4203)
+                            DescriacaoVacina = "Giardíase",
+                            IdEspecie = 1,
+                            doseVacina = 2,
+                            intervaloVacina = 1
                         },
                         new
                         {
                             IdVacina = 5,
-                            CarteiraId = 2,
-                            DataVacina = new DateTime(2022, 11, 21, 19, 47, 7, 136, DateTimeKind.Local).AddTicks(4206),
-                            Medicamento = "Anti-Rábica",
-                            ProximaVacina = new DateTime(2022, 11, 21, 19, 47, 7, 136, DateTimeKind.Local).AddTicks(4208)
+                            DescriacaoVacina = "Anti-Rábica",
+                            IdEspecie = 1,
+                            doseVacina = 1,
+                            intervaloVacina = 12
                         },
                         new
                         {
                             IdVacina = 6,
-                            CarteiraId = 2,
-                            DataVacina = new DateTime(2022, 11, 21, 19, 47, 7, 136, DateTimeKind.Local).AddTicks(4226),
-                            Medicamento = "Quádrupla Felina",
-                            ProximaVacina = new DateTime(2022, 11, 21, 19, 47, 7, 136, DateTimeKind.Local).AddTicks(4228)
+                            DescriacaoVacina = "Quádrupla Felina",
+                            IdEspecie = 2,
+                            doseVacina = 3,
+                            intervaloVacina = 4
                         },
                         new
                         {
                             IdVacina = 7,
-                            CarteiraId = 2,
-                            DataVacina = new DateTime(2022, 11, 21, 19, 47, 7, 136, DateTimeKind.Local).AddTicks(4231),
-                            Medicamento = "Anti-Rábica",
-                            ProximaVacina = new DateTime(2022, 11, 21, 19, 47, 7, 136, DateTimeKind.Local).AddTicks(4234)
+                            DescriacaoVacina = "Anti-Rábica",
+                            IdEspecie = 2,
+                            doseVacina = 1,
+                            intervaloVacina = 12
                         });
                 });
 
@@ -1440,6 +1440,10 @@ namespace carteiravacina.Migrations
                     b.HasOne("carteiravacina.Models.Especie", "Especie")
                         .WithMany()
                         .HasForeignKey("EspecieIdEspecie");
+
+                    b.HasOne("carteiravacina.Models.Sexos", "Sexos")
+                        .WithMany()
+                        .HasForeignKey("SexosIdSexo");
 
                     b.HasOne("carteiravacina.Models.Racas", "Racas")
                         .WithMany()
@@ -1453,7 +1457,18 @@ namespace carteiravacina.Migrations
 
                     b.Navigation("Racas");
 
+                    b.Navigation("Sexos");
+
                     b.Navigation("Situacao");
+                });
+
+            modelBuilder.Entity("carteiravacina.Models.CarteiraVacina", b =>
+                {
+                    b.HasOne("carteiravacina.Models.Animal", "Animal")
+                        .WithMany()
+                        .HasForeignKey("IdAnimal");
+
+                    b.Navigation("Animal");
                 });
 
             modelBuilder.Entity("carteiravacina.Models.Tutor", b =>
@@ -1463,17 +1478,6 @@ namespace carteiravacina.Migrations
                         .HasForeignKey("PerfilIdCodigo");
 
                     b.Navigation("Perfil");
-                });
-
-            modelBuilder.Entity("carteiravacina.Models.Vacina", b =>
-                {
-                    b.HasOne("carteiravacina.Models.Carteira", "Carteira")
-                        .WithMany()
-                        .HasForeignKey("CarteiraId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Carteira");
                 });
 #pragma warning restore 612, 618
         }

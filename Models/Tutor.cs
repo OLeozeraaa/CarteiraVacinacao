@@ -28,6 +28,5 @@ namespace carteiravacina.Models
         public string ufTutor { get; set; }
         public string Email { get; set; }
         public int crm { get; set; }
-        public Perfil Perfil { get; set; }
     }
 }

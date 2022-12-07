@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using System.Collections.Generic;
 
 namespace CarteiraVacinacao.Controllers
 {
@@ -132,6 +133,35 @@ namespace CarteiraVacinacao.Controllers
                 int linhasAfetadas = await _context.SaveChangesAsync();
 
                 return Ok(linhasAfetadas);
+            }
+            catch (System.Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPost("Add")]
+        public async Task<IActionResult> AdicionarTutor(Tutor tutor)
+        {
+            try
+            {
+                await _context.Tutor.AddAsync(tutor);
+                await _context.SaveChangesAsync();
+                return Ok();
+            }
+            catch(System.Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("Listar")]
+        public async Task<IActionResult> ListarAsync()
+        {
+            try
+            {
+                List<Tutor> tutor = await _context.Tutor.ToListAsync(); 
+                return Ok(tutor);
             }
             catch (System.Exception ex)
             {

@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using carteiravacina.Models;
+using CarteiraVacinacao.Models;
 using Microsoft.EntityFrameworkCore;
+using CarteiraVacinaca.Models;
 
 namespace CarteiraVacina_BackEnd.Data
 {
@@ -10,21 +12,20 @@ namespace CarteiraVacina_BackEnd.Data
         public DbSet<Animal> Animal { get; set; }
         public DbSet<Especie> Especie { get; set; }
         public DbSet<Login> Login { get; set; }
-        public DbSet<Perfil> Perfil { get; set; }
         public DbSet<Racas> Racas { get; set; }
         public DbSet<Sexos> Sexos { get; set; }
-        public DbSet<Situacao> Situacao { get; set; }
         public DbSet<Tutor> Tutor { get; set; }
-        public DbSet<TutorAnimal> TutorAnimal { get; set; }
-        //public DbSet<Vacina> Vacina { get; set; }
         public DbSet<Carteira> Carteira { get; set; }
         public DbSet<Vacina> Vacina { get; set; }
+        public DbSet<RGA> RGA { get; set; }
+        public DbSet<Desaparecido> Desaparecido { get; set; }
+        public DbSet<DesaparecidoSemRegistro> DesaparecidoSemRegistro { get; set; }
         
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.Entity<Sexos>()
-                .HasKey(SX => new { SX.IdSexo });
+                .HasKey(SX => new { SX.idSexo });
 
             builder.Entity<Sexos>()
                 .HasData(new List<Sexos>(){
@@ -42,7 +43,7 @@ namespace CarteiraVacina_BackEnd.Data
                 });
             
             builder.Entity<Racas>()
-                .HasKey(RC => new { RC.IdRaca, RC.IdEspecie });
+                .HasKey(RC => new { RC.idRaca, RC.idEspecie });
 
             builder.Entity<Racas>()
                 .HasData(new List<Racas>(){
@@ -177,42 +178,11 @@ namespace CarteiraVacina_BackEnd.Data
                     new Racas (129,2,"Angorá turco","Médio","-"),
                 });
 
-            builder.Entity<Situacao>()
-            .HasKey(ST => new { ST.IdSituacao, ST.DescricaoSituacao });
-
-            builder.Entity<Situacao>()
-                .HasData(new List<Situacao>(){
-                    new Situacao(1, "Ativo"),
-                    new Situacao(2, "Desaparecido"),
-                    new Situacao(3, "Falecido"),
-                    new Situacao(4, "Para adoção"),
-                });
-
-                /* builder.Entity<Vacina>()
-                .HasKey(VC => new { VC.IdVacina });
-
-            builder.Entity<Vacina>()
-                .HasData(new List<Vacina>(){
-                    new Vacina (1,"V8",1,3,1),
-                    new Vacina (2,"V10",1,3,1),
-                    new Vacina (3,"Gripe Canina",1,2,1),
-                    new Vacina (4,"Giardíase",1,2,1),
-                    new Vacina (5,"Anti-Rábica",1,1,12),
-                    new Vacina (6,"Quádrupla Felina",2,3,4),
-                    new Vacina (7,"Anti-Rábica",2,1,12),
-                }); */
-
-                builder.Entity<Perfil>()
-                .HasKey(PL => new { PL.IdCodigo });
-
                 builder.Entity<Animal>()
-                .HasKey(AN => new { AN.IdAnimal });
+                .HasKey(AN => new { AN.Id });
 
                 builder.Entity<Tutor>()
                 .HasKey(TT => new { TT.IdTutor });
-
-                builder.Entity<TutorAnimal>()
-                .HasKey(TA => new { TA.IdTutor, TA.IdAnimal });
 
                 builder.Entity<Login>()
                 .HasKey(LG => new { LG.Id });
@@ -234,12 +204,14 @@ namespace CarteiraVacina_BackEnd.Data
                 builder.Entity<Carteira>()
                 .HasKey(CT => new { CT.Id });
 
-                builder.Entity<Carteira>()
-                .HasData(new List<Carteira>(){
-                    new Carteira(1,"Rosa"),
-                    new Carteira(2,"Pipoca"),
-                    new Carteira(3,"Mano")
-                });
+                builder.Entity<RGA>()
+                .HasKey(RG => new { RG.IdRGA });
+
+                builder.Entity<Desaparecido>()
+                .HasKey(DP => new { DP.Id });
+
+                builder.Entity<DesaparecidoSemRegistro>()
+                .HasKey(DPS => new { DPS.Id });
         }
     }
 }

@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\AP\\Back\\CarteiraVacinacao\\carteiravacina.csproj": {}
+    "C:\\Users\\artca\\Downloads\\CarteiraVacinacao\\carteiravacina.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\AP\\Back\\CarteiraVacinacao\\carteiravacina.csproj": {
+    "C:\\Users\\artca\\Downloads\\CarteiraVacinacao\\carteiravacina.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\AP\\Back\\CarteiraVacinacao\\carteiravacina.csproj",
+        "projectUniqueName": "C:\\Users\\artca\\Downloads\\CarteiraVacinacao\\carteiravacina.csproj",
         "projectName": "carteiravacina",
-        "projectPath": "C:\\Users\\User\\Desktop\\AP\\Back\\CarteiraVacinacao\\carteiravacina.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\AP\\Back\\CarteiraVacinacao\\obj\\",
+        "projectPath": "C:\\Users\\artca\\Downloads\\CarteiraVacinacao\\carteiravacina.csproj",
+        "packagesPath": "C:\\Users\\artca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\artca\\Downloads\\CarteiraVacinacao\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\artca\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -79,6 +73,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.13, 5.0.13]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -87,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

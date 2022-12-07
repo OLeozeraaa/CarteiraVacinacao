@@ -21,7 +21,18 @@ namespace carteiravacina
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<DataContext>(x => x.UseSqlServer(Configuration.GetConnectionString("ConexaoSomee")));
+            services.AddDbContext<DataContext>(x => 
+            {
+                x.UseSqlServer(
+                    Configuration.GetConnectionString("ConexaoSomee"),
+                    options => options.EnableRetryOnFailure(
+                            maxRetryCount: 15,
+                            maxRetryDelay: System.TimeSpan.FromSeconds(30),
+                            errorNumbersToAdd: null
+
+                    )
+                );
+            });
             services.AddCors();
             services.AddControllers();
             services.AddSwaggerGen(c =>

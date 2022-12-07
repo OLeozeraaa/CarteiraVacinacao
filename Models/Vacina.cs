@@ -7,7 +7,7 @@ namespace carteiravacina.Models
 {
     public class Vacina
     {
-        public Vacina(int idVacina, DateTime dataVacina, string medicamento, int carteiraId, DateTime proximaVacina)
+        public Vacina(int idVacina, DateTime dataVacina, string medicamento, int carteiraId, DateTime? proximaVacina)
         {
             this.IdVacina = idVacina;
             this.DataVacina = dataVacina;
@@ -17,7 +17,7 @@ namespace carteiravacina.Models
         }
         public int IdVacina { get; set; }
         public DateTime DataVacina { get; set; }
-        public DateTime ProximaVacina { get; set; }
+        public DateTime? ProximaVacina { get; set; }
         public string Medicamento { get; set; }
         public int CarteiraId { get; set; }
         [ForeignKey("CarteiraId")]
